@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZebraView">
+        <!--方向-->
+        <attr name="zbv_orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <!--间隙-->
+        <attr name="zbv_interval" format="dimension"/>
+        <!--线宽-->
+        <attr name="zbv_line_width" format="dimension"/>
+        <!--线条颜色-->
+        <attr name="zbv_line_color" format="color"/>
+        <!--线条开始颜色-->
+        <attr name="zbv_line_color_start" format="color"/>
+        <!--线条结束颜色-->
+        <attr name="zbv_line_color_end" format="color"/>
+
+        <!--背景颜色-->
+        <attr name="zbv_bg_color" format="color"/>
+        <!--背景开始颜色-->
+        <attr name="zbv_bg_color_start" format="color"/>
+        <!--背景结束颜色-->
+        <attr name="zbv_bg_color_end" format="color"/>
+
+        <!--镜像翻转-->
+        <attr name="zbv_mirror" format="boolean"/>
+
+        <!--是否是斜角线-->
+        <attr name="zbv_angle" format="boolean"/>
+
+        <!--圆角类型-->
+        <attr name="zbv_corner_radius" format="dimension"/>
+        <attr name="zbv_corner_radius_top_left" format="dimension"/>
+        <attr name="zbv_corner_radius_top_right" format="dimension"/>
+        <attr name="zbv_corner_radius_bottom_left" format="dimension"/>
+        <attr name="zbv_corner_radius_bottom_right" format="dimension"/>
+
+    </declare-styleable>
+
+</resources>
