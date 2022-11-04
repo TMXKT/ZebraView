@@ -13,7 +13,6 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-
         <com.example.zebraview.ZebraView
             android:layout_width="match_parent"
             android:layout_height="20dp"
@@ -29,17 +28,17 @@
 
         <com.example.zebraview.ZebraView
             android:layout_width="100dp"
-            android:layout_height="20dp"
-            android:paddingTop="10dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:background="#111111"
+            android:layout_height="40dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:background="#111111"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
             app:zbv_bg_color_end="#FFAA53"
             app:zbv_bg_color_start="#FF681A"
-            app:zbv_corner_radius="3dp"
+            app:zbv_corner_radius="2dp"
             app:zbv_interval="10dp"
             app:zbv_line_color_end="#FFB661"
             app:zbv_line_color_start="#FF7929"
@@ -52,21 +51,18 @@
             android:layout_margin="10dp"
             app:zbv_bg_color_end="#FFAA53"
             app:zbv_bg_color_start="#FF681A"
-            app:zbv_corner_radius_top_left="5dp"
             app:zbv_corner_radius_bottom_right="5dp"
+            app:zbv_corner_radius_top_left="5dp"
             app:zbv_interval="10dp"
             app:zbv_line_color_end="#FFB661"
             app:zbv_line_color_start="#FF7929"
             app:zbv_line_width="12dp"
             app:zbv_mirror="false" />
 
-
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
 
             <com.example.zebraview.ZebraView
                 android:layout_width="match_parent"
@@ -74,8 +70,8 @@
                 android:layout_margin="10dp"
                 app:zbv_bg_color_end="#FFAA53"
                 app:zbv_bg_color_start="#FF681A"
-                app:zbv_corner_radius_top_left="5dp"
                 app:zbv_corner_radius_bottom_right="5dp"
+                app:zbv_corner_radius_top_left="5dp"
                 app:zbv_interval="10dp"
                 app:zbv_line_color_end="#FFB661"
                 app:zbv_line_color_start="#FF7929"
@@ -84,6 +80,99 @@
 
         </LinearLayout>
 
+        <com.example.zebraview.ZebraView
+            android:layout_width="100dp"
+            android:layout_height="2dp"
+            android:layout_margin="10dp"
+            app:zbv_angle="false"
+            app:zbv_bg_color_end="#ffffff"
+            app:zbv_bg_color_start="#ffffff"
+            app:zbv_corner_radius="100dp"
+            app:zbv_interval="3dp"
+            app:zbv_line_color_end="#FFB661"
+            app:zbv_line_color_start="#FF7929"
+            app:zbv_line_width="5dp"
+            app:zbv_mirror="false"
+            app:zbv_orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <com.example.zebraview.ZebraView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:zbv_bg_color_end="#FFAA53"
+                app:zbv_bg_color_start="#FF681A"
+                app:zbv_corner_radius_top_left="5dp"
+                app:zbv_corner_radius_top_right="5dp"
+                app:zbv_interval="10dp"
+                app:zbv_line_color_end="#FFB661"
+                app:zbv_line_color_start="#FF7929"
+                app:zbv_line_width="12dp"
+                app:zbv_mirror="false"
+                app:zbv_orientation="vertical" />
+
+            <com.example.zebraview.ZebraView
+                android:layout_width="20dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                app:zbv_bg_color_end="#FFAA53"
+                app:zbv_bg_color_start="#FF681A"
+                app:zbv_corner_radius_top_left="100dp"
+                app:zbv_corner_radius_top_right="100dp"
+                app:zbv_interval="10dp"
+                app:zbv_line_color_end="#FFB661"
+                app:zbv_line_color_start="#FF7929"
+                app:zbv_line_width="12dp"
+                app:zbv_mirror="false"
+                app:zbv_orientation="vertical" />
+
+            <com.example.zebraview.ZebraView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                app:zbv_bg_color_end="#FFAA53"
+                app:zbv_bg_color_start="#FF681A"
+                app:zbv_corner_radius="100dp"
+                app:zbv_interval="10dp"
+                app:zbv_line_color_end="#FFB661"
+                app:zbv_line_color_start="#FF7929"
+                app:zbv_line_width="12dp"
+                app:zbv_mirror="false"
+                app:zbv_orientation="vertical" />
+
+            <com.example.zebraview.ZebraView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                app:zbv_bg_color="#FF681A"
+                app:zbv_corner_radius="100dp"
+                app:zbv_interval="10dp"
+                app:zbv_line_color="#FF681A"
+                app:zbv_line_width="12dp"
+                app:zbv_mirror="false"
+                app:zbv_orientation="vertical" />
+
+
+            <com.example.zebraview.ZebraView
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                app:zbv_angle="false"
+                app:zbv_bg_color_end="#ffffff"
+                app:zbv_bg_color_start="#ffffff"
+                app:zbv_corner_radius="100dp"
+                app:zbv_interval="3dp"
+                app:zbv_line_color_end="#FFB661"
+                app:zbv_line_color_start="#FF7929"
+                app:zbv_line_width="5dp"
+                app:zbv_mirror="false"
+                app:zbv_orientation="horizontal" />
+        </LinearLayout>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>
 
